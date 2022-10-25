@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "url shortener",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SenRecep/url-shortener.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "SenRecep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SenRecep/url-shortener/issues"
+  },
+  "homepage": "https://github.com/SenRecep/url-shortener#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
